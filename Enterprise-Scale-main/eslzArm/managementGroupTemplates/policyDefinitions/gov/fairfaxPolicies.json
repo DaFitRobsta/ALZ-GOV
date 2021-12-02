@@ -15634,6 +15634,9 @@
                 }
               }
             },
+            "varibles": {
+              "foobar": "[[concat(parameters('enableAscForSqlOnVm'),parameters('enableAscForOssDb'),parameters('enableAscForAppServices'), parameters('enableAscForKeyVault'))]"
+            },
             "metadata": {
               "version": "2.0.0",
               "category": "Security Center"
