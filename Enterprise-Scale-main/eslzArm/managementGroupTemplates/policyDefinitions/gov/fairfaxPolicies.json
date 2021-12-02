@@ -15651,11 +15651,7 @@
               {
                 "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/36d49e87-48c4-4f2e-beed-ba4ed02b71f5",
                 "policyDefinitionReferenceId": "defenderForSqlServerVirtualMachines",
-                "parameters": {
-                  "effect": {
-                    "value": "[[parameters('enableAscForSqlOnVm')]"
-                  }
-                }
+                "parameters": {}
               },
               {
                 "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/74c30959-af11-47b3-9ed2-a26e03f427a3",
