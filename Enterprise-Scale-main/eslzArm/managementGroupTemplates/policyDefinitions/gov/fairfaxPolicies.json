@@ -15658,20 +15658,11 @@
                 }
               },
               {
-                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/50ea7265-7d8c-429e-9a7d-ca1f410191c3",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/36d49e87-48c4-4f2e-beed-ba4ed02b71f5",
                 "policyDefinitionReferenceId": "defenderForSqlServerVirtualMachines",
                 "parameters": {
                   "effect": {
                     "value": "[[parameters('enableAscForSqlOnVm')]"
-                  }
-                }
-              },
-              {
-                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/b40e7bcd-a1e5-47fe-b9cf-2f534d0bfb7d",
-                "policyDefinitionReferenceId": "defenderForAppServices",
-                "parameters": {
-                  "effect": {
-                    "value": "[[parameters('enableAscForAppServices')]"
                   }
                 }
               },
@@ -15685,7 +15676,7 @@
                 }
               },
               {
-                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/64def556-fbad-4622-930e-72d1d5589bf5",
+                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/133047bf-1369-41e3-a3be-74a11ed1395a",
                 "policyDefinitionReferenceId": "defenderForKubernetesService",
                 "parameters": {
                   "effect": {
@@ -15699,15 +15690,6 @@
                 "parameters": {
                   "effect": {
                     "value": "[[parameters('enableAscForRegistries')]"
-                  }
-                }
-              },
-              {
-                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1f725891-01c0-420a-9059-4fa46cb770b7",
-                "policyDefinitionReferenceId": "defenderForKeyVaults",
-                "parameters": {
-                  "Effect": {
-                    "value": "[[parameters('enableAscForKeyVault')]"
                   }
                 }
               },
