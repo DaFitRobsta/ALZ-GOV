@@ -15640,15 +15640,6 @@
             },
             "PolicyDefinitions": [
               {
-                "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/44433aa3-7ec2-4002-93ea-65c65ff0310a",
-                "policyDefinitionReferenceId": "defenderForOssDb",
-                "parameters": {
-                  "effect": {
-                    "value": "[[parameters('enableAscForOssDb')]"
-                  }
-                }
-              },
-              {
                 "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/8e86a5b6-b9bd-49d1-8e21-4bb8a0862222",
                 "policyDefinitionReferenceId": "defenderForVM",
                 "parameters": {
