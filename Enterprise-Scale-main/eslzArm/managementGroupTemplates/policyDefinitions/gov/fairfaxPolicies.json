@@ -15570,13 +15570,6 @@
                   "description": "Enable or disable the execution of the policy"
                 }
               },
-              "enableAscForSqlOnVm": {
-                "type": "String",
-                "metadata": {
-                  "displayName": "Effect",
-                  "description": "Enable or disable the execution of the policy"
-                }
-              },
               "enableAscForDns": {
                 "type": "String",
                 "metadata": {
@@ -15591,28 +15584,7 @@
                   "description": "Enable or disable the execution of the policy"
                 }
               },
-              "enableAscForOssDb": {
-                "type": "String",
-                "metadata": {
-                  "displayName": "Effect",
-                  "description": "Enable or disable the execution of the policy"
-                }
-              },
-              "enableAscForAppServices": {
-                "type": "String",
-                "metadata": {
-                  "displayName": "Effect",
-                  "description": "Enable or disable the execution of the policy"
-                }
-              },
               "enableAscForRegistries": {
-                "type": "String",
-                "metadata": {
-                  "displayName": "Effect",
-                  "description": "Enable or disable the execution of the policy"
-                }
-              },
-              "enableAscForKeyVault": {
                 "type": "String",
                 "metadata": {
                   "displayName": "Effect",
@@ -15633,9 +15605,6 @@
                   "description": "Enable or disable the execution of the policy"
                 }
               }
-            },
-            "varibles": {
-              "foobar": "[[[concat(parameters('enableAscForSqlOnVm'),parameters('enableAscForOssDb'),parameters('enableAscForAppServices'), parameters('enableAscForKeyVault'))]]"
             },
             "metadata": {
               "version": "2.0.0",
